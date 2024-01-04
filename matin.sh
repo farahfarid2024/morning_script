@@ -1,9 +1,16 @@
 #!/bin/bash
 
 echo "Bonjour Farid!";
+sleep 1;
+echo "J'espère que tu vas bien!";
 
-echo "Date du jour : $(date)";
+echo "Aujourd'hui on est : $(date)";
 
-echo "Heure du jour : $(Time)";
+echo "TU ES LE MEILLEUR";
 
-echo "code";
+
+echo "Je vais ouvrir VSCODE et Chrome ...";
+sleep 3;
+code;
+
+xdg-open https://www.google.fr
